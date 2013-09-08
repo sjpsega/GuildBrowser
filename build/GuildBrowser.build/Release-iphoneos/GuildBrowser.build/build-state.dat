@@ -1,0 +1,502 @@
+TGuildBrowser
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Info.plist GuildBrowser/GuildBrowser-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/GuildBrowser.app/ResourceRules.plist
+cProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch.pth GuildBrowser/GuildBrowser-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch.pth GuildBrowser/GuildBrowser-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/main.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/AppDelegate.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/ViewController.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/main.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/AppDelegate.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/ViewController.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser normal armv7s
+cLd /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser normal armv7
+cCreateUniversalBinary /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser normal "armv7 armv7s"
+cGenerateDSYMFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app.dSYM /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser
+cCopyPNGFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default.png GuildBrowser/Default.png
+cCopyPNGFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default@2x.png GuildBrowser/Default@2x.png
+cCopyStringsFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/en.lproj/InfoPlist.strings GuildBrowser/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default-568h@2x.png GuildBrowser/Default-568h@2x.png
+cCompileStoryboard /Users/apple/Desktop/GuildBrowser/GuildBrowser/en.lproj/MainStoryboard.storyboard
+cProcessProductPackaging "/Users/apple/Library/MobileDevice/Provisioning Profiles/74FB6EDE-8049-4EB4-9F3B-5B8E729494FF.mobileprovision" /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/apple/Library/MobileDevice/Provisioning Profiles/74FB6EDE-8049-4EB4-9F3B-5B8E729494FF.mobileprovision" /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovision
+cTouch /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent
+cCodeSign /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+cValidate /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000051BC4FA50000000000000132
+t1371295653
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c0000000051380AC700000000000001A7
+t1362627271
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c0000000051380AC700000000000001E5
+t1362627271
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051380AC80000000000322700
+t1362627272
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051380AC9000000000062AD10
+t1362627273
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000051380AC800000000000015F7
+t1362627272
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000051380AC90000000000000E8D
+t1362627273
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051380ACC00000000011BCDF0
+t1362627276
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c0000000051380ACE0000000000001B73
+t1362627278
+s7027
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m
+c00000000522C6BB500000000000007D2
+t1378642869
+s2002
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/GuildBrowser-Prefix.pch
+c00000000522C6BB50000000000000147
+t1378642869
+s327
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m
+c00000000522C6BB500000000000001E8
+t1378642869
+s488
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/en.lproj/InfoPlist.strings
+c00000000522C6BB5000000000000002D
+t1378642869
+s45
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/en.lproj/MainStoryboard.storyboard
+c00000000522C6BB50000000000000603
+t1378642869
+s1539
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m
+c00000000522C6BB5000000000000014B
+t1378642869
+s331
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser.LinkFileList
+c00000000522C6E960000000000000182
+t1378643606
+s386
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser.LinkFileList
+c00000000522C6E960000000000000185
+t1378643606
+s389
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app.dSYM
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default.png
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default@2x.png
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Info.plist
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/PkgInfo
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/ResourceRules.plist
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/apple/Library/MobileDevice/Provisioning Profiles/74FB6EDE-8049-4EB4-9F3B-5B8E729494FF.mobileprovision
+c0000000051BC59870000000000001CEE
+t1371298183
+s7406
+
+N/var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch.pth
+t2
+s0
+
+NGuildBrowser/GuildBrowser-Info.plist
+c00000000522C6BB500000000000004CE
+t1378642869
+s1230
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbceab916a6dcb741^3e20d016a6dcb741^---0#1#0#--18"Check dependencies36"498DEBED-FACC-4702-BA0F-740E4D59838D-
+
+CCodeSign /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+s400336407.683429
+e400336407.911524
+r1
+xCodeSign
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"CodeSign build/Release-iphoneos/GuildBrowser.app4414af17a6dcb741^d559e917a6dcb741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/0000000000000000^990"CodeSign build/Release-iphoneos/GuildBrowser.app    cd /Users/apple/Desktop/GuildBrowser    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /usr/bin/codesign --force --sign 614b635357204f0163bc5c25742ce47ab23db6e9 --resource-rules=/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/ResourceRules.plist --entitlements /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app36"EB32EF62-24AF-4600-9678-7185E012428E-
+
+CCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/AppDelegate.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400336407.301254
+e400336407.385545
+r1
+xCompileC
+xbuild/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/AppDelegate.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m05894d17a6dcb741^6cb26217a6dcb741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m0000000000000000^3577"CompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/AppDelegate.o GuildBrowser/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/AppDelegate.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/AppDelegate.o36"8408B22F-4729-4489-8640-152CB9A8CDAA-
+
+CCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/ViewController.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400336407.317425
+e400336407.385559
+r1
+xCompileC
+xbuild/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/ViewController.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m3a755117a6dcb741^6d716517a6dcb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m0000000000000000^3595"CompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/ViewController.o GuildBrowser/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/ViewController.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/ViewController.o36"F5F5313E-D2BF-45A8-BE98-ABB2AA24B850-
+
+CCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/main.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400336407.301228
+e400336407.332440
+r1
+xCompileC
+xbuild/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/main.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/main.mc24e4d17a6dcb741^999f5717a6dcb741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m0000000000000000^3535"CompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/main.o GuildBrowser/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/main.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/main.o36"DE18EDC9-0F65-4E8E-B00D-2FA4AC769B19-
+
+CCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/AppDelegate.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400336407.235132
+e400336407.331111
+r1
+xCompileC
+xbuild/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m9c6b3c17a6dcb741^c7d55417a6dcb741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m0000000000000000^3584"CompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/AppDelegate.o GuildBrowser/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources/armv7s -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/AppDelegate.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/AppDelegate.o36"CAF9031B-E637-4DE4-BD5D-97B83D4CBF47-
+
+CCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/ViewController.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400336407.236096
+e400336407.315094
+r1
+xCompileC
+xbuild/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/ViewController.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.mae9d3c17a6dcb741^02b95017a6dcb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m0000000000000000^3602"CompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/ViewController.o GuildBrowser/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources/armv7s -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/ViewController.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/ViewController.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/ViewController.o36"A728526E-B256-4030-BE13-F0CEA02AFACD-
+
+CCompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/main.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400336407.235090
+e400336407.292322
+r1
+xCompileC
+xbuild/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/main.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m55683c17a6dcb741^e6794c17a6dcb741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m0000000000000000^3542"CompileC build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/main.o GuildBrowser/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources/armv7s -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/main.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/main.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/main.o36"7593743D-6174-4898-8B30-B6F3C0B4C157-
+
+CCompileStoryboard /Users/apple/Desktop/GuildBrowser/GuildBrowser/en.lproj/MainStoryboard.storyboard
+s400336407.491266
+e400336407.591326
+r1
+xCompileStoryboard
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard GuildBrowser/en.lproj/MainStoryboard.storyboarda7e77d17a6dcb741^506e9717a6dcb741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/en.lproj/MainStoryboard.storyboard0000000000000000^1057"CompileStoryboard GuildBrowser/en.lproj/MainStoryboard.storyboard    cd /Users/apple/Desktop/GuildBrowser    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/en.lproj/MainStoryboard.storyboardc /Users/apple/Desktop/GuildBrowser/GuildBrowser/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"3AB8289B-19E1-449C-926B-A2D0796AF4CD-
+
+CCopyPNGFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default-568h@2x.png GuildBrowser/Default-568h@2x.png
+s400336407.484723
+e400336407.627945
+r1
+xCopyPNGFile
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default-568h@2x.png
+xGuildBrowser/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/Release-iphoneos/GuildBrowser.app/Default-568h@2x.png GuildBrowser/Default-568h@2x.png22557c17a6dcb741^cfc0a017a6dcb741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/Default-568h@2x.png0000000000000000^801"CopyPNGFile "build/Release-iphoneos/GuildBrowser.app/Default-568h@2x.png" "GuildBrowser/Default-568h@2x.png"    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/apple/Desktop/GuildBrowser/GuildBrowser/Default-568h@2x.png" "/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default-568h@2x.png"36"340B00D5-B259-4351-9234-174A00F31C19-
+
+CCopyPNGFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default.png GuildBrowser/Default.png
+s400336407.484293
+e400336407.542525
+r1
+xCopyPNGFile
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default.png
+xGuildBrowser/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Release-iphoneos/GuildBrowser.app/Default.png GuildBrowser/Default.pngd8467c17a6dcb741^f1f48a17a6dcb741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/Default.png0000000000000000^761"CopyPNGFile build/Release-iphoneos/GuildBrowser.app/Default.png GuildBrowser/Default.png    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/apple/Desktop/GuildBrowser/GuildBrowser/Default.png /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default.png36"64509DBF-38E8-4A04-931B-62458DA45229-
+
+CCopyPNGFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default@2x.png GuildBrowser/Default@2x.png
+s400336407.484303
+e400336407.607708
+r1
+xCopyPNGFile
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default@2x.png
+xGuildBrowser/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Release-iphoneos/GuildBrowser.app/Default@2x.png GuildBrowser/Default@2x.png0e4e7c17a6dcb741^d7139d17a6dcb741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/Default@2x.png0000000000000000^781"CopyPNGFile "build/Release-iphoneos/GuildBrowser.app/Default@2x.png" "GuildBrowser/Default@2x.png"    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/apple/Desktop/GuildBrowser/GuildBrowser/Default@2x.png" "/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Default@2x.png"36"7EFA6E11-CE74-41D6-AA4C-95B677440EC7-
+
+CCopyStringsFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/en.lproj/InfoPlist.strings GuildBrowser/en.lproj/InfoPlist.strings
+s400336407.484320
+e400336407.489447
+r1
+xCopyStringsFile
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/en.lproj/InfoPlist.strings
+xGuildBrowser/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy GuildBrowser/en.lproj/InfoPlist.strings63467c17a6dcb741^15577d17a6dcb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/en.lproj/InfoPlist.strings0000000000000000^752"CopyStringsFile build/Release-iphoneos/GuildBrowser.app/en.lproj/InfoPlist.strings GuildBrowser/en.lproj/InfoPlist.strings    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/en.lproj -- GuildBrowser/en.lproj/InfoPlist.strings36"BED09018-651F-424B-B87D-21A6E60FB613-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/GuildBrowser.app/ResourceRules.plist
+s400336406.820453
+e400336406.824727
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/GuildBrowser.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release-iphoneos/GuildBrowser.app/ResourceRules.plist2b32d216a6dcb741^b820d316a6dcb741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/ResourceRules.plist000000000080d041^1040"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/GuildBrowser.app/ResourceRules.plist    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app36"31865613-5B28-4B0B-A49C-433D6608D8CA-
+
+CCreateUniversalBinary /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser normal "armv7 armv7s"
+s400336407.425250
+e400336407.443424
+r1
+xCreateUniversalBinary
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Create universal binary /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowserc9036d17a6dcb741^9d817117a6dcb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser000000000080d041^881"CreateUniversalBinary build/Release-iphoneos/GuildBrowser.app/GuildBrowser normal "armv7 armv7s"    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    lipo -create /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser -output /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser36"62469ACE-387B-4E22-BD6B-23F0AFF2BF8F-
+
+CGenerateDSYMFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app.dSYM /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser
+s400336407.450310
+e400336407.476200
+r1
+xGenerateDSYMFile
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app.dSYM
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Generate /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app.dSYM0b5f7317a6dcb741^3ee87917a6dcb741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app.dSYM000000000080d041^797"GenerateDSYMFile build/Release-iphoneos/GuildBrowser.app.dSYM build/Release-iphoneos/GuildBrowser.app/GuildBrowser    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser -o /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app.dSYM36"4DC6EB0E-DCE2-4FA8-9B5A-2189EB2DD754-
+
+CLd /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser normal armv7
+s400336407.392461
+e400336407.417522
+r1
+xLd
+x/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Link /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowserbf996417a6dcb741^8fe46a17a6dcb741^---0#0#0#--1322"Ld build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser normal armv7    cd /Users/apple/Desktop/GuildBrowser    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -filelist /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7/GuildBrowser36"200ADD8A-E5DE-470E-A8E2-F8AC8696D26D-
+
+CLd /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser normal armv7s
+s400336407.341568
+e400336407.368926
+r1
+xLd
+x/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowsere1ef5717a6dcb741^d87e5e17a6dcb741^---0#0#0#--1327"Ld build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser normal armv7s    cd /Users/apple/Desktop/GuildBrowser    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -filelist /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/Objects-normal/armv7s/GuildBrowser36"3150EAC2-0222-41CC-8C20-5149ED0378E1-
+
+CProcessInfoPlistFile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Info.plist GuildBrowser/GuildBrowser-Info.plist
+s400336406.820583
+e400336406.825897
+r1
+xProcessInfoPlistFile
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Info.plist
+xGuildBrowser/GuildBrowser-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process GuildBrowser/GuildBrowser-Info.plist7231d216a6dcb741^a46ed316a6dcb741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/GuildBrowser-Info.plist0000000000000000^938"ProcessInfoPlistFile build/Release-iphoneos/GuildBrowser.app/Info.plist GuildBrowser/GuildBrowser-Info.plist    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-infoPlistUtility GuildBrowser/GuildBrowser-Info.plist -genpkginfo /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/ResourceRules.plist -o /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/Info.plist36"38DA1D58-83CD-4030-82DB-03C49A1C4555-
+
+CProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch.pth GuildBrowser/GuildBrowser-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400336406.833823
+e400336407.291907
+r1
+xProcessPCH
+x/var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch.pth
+xGuildBrowser/GuildBrowser-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile GuildBrowser/GuildBrowser-Prefix.pch2fa2d516a6dcb741^4ce04a17a6dcb741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/GuildBrowser-Prefix.pch0000000000000000^3624"ProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch.pth GuildBrowser/GuildBrowser-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/GuildBrowser-Prefix.pch -o /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-bjtsqoqyxofrmjbvzmcdzpifyvrv/GuildBrowser-Prefix.pch.d36"35C8B9C1-2037-4DD4-B217-D8A62C247F55-
+
+CProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch.pth GuildBrowser/GuildBrowser-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400336406.833825
+e400336407.228520
+r1
+xProcessPCH
+x/var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch.pth
+xGuildBrowser/GuildBrowser-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile GuildBrowser/GuildBrowser-Prefix.pche0a0d516a6dcb741^f67f3a17a6dcb741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/GuildBrowser-Prefix.pch0000000000000000^3627"ProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch.pth GuildBrowser/GuildBrowser-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources/armv7s -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/GuildBrowser-Prefix.pch -o /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowser-Prefix-cdubpkgyzesihefdmwdvrqufhccw/GuildBrowser-Prefix.pch.d36"3744D0D5-017A-4EC0-AB8D-A648F543D03A-
+
+CProcessProductPackaging "/Users/apple/Library/MobileDevice/Provisioning Profiles/74FB6EDE-8049-4EB4-9F3B-5B8E729494FF.mobileprovision" /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovision
+s400336407.646541
+e400336407.649497
+r1
+xProcessProductPackaging
+x/Users/apple/Library/MobileDevice/Provisioning Profiles/74FB6EDE-8049-4EB4-9F3B-5B8E729494FF.mobileprovision
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"ProcessProductPackaging "/Users/apple/Library/MobileDevice/Provisioning Profiles/74FB6EDE-8049-4EB4-9F3B-5B8E729494FF.mobileprovision" build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovisiondba5a517a6dcb741^4144a617a6dcb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovision0000000000000000^862"ProcessProductPackaging "/Users/apple/Library/MobileDevice/Provisioning Profiles/74FB6EDE-8049-4EB4-9F3B-5B8E729494FF.mobileprovision" build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovision    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-productPackagingUtility "/Users/apple/Library/MobileDevice/Provisioning Profiles/74FB6EDE-8049-4EB4-9F3B-5B8E729494FF.mobileprovision" -o /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/embedded.mobileprovision36"CF7E3B46-2A98-40EA-A27A-11E8F6E07AAE-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent
+s400336407.671245
+e400336407.674941
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection224"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent1afaab17a6dcb741^23d8ac17a6dcb741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent000000000080d041^938"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Release-iphoneos/GuildBrowser.build/GuildBrowser.xcent36"F1CD446E-1EBF-4D55-A831-C2C302CD7760-
+
+CTouch /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+s400336407.658132
+e400336407.663152
+r1
+xTouch
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Touch /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app4a99a817a6dcb741^65c4a917a6dcb741^---0#0#0#--555"Touch build/Release-iphoneos/GuildBrowser.app    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /usr/bin/touch -c /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app36"2B47F4FD-4DCF-43D8-B4D8-0A20B6EBBCC5-
+
+CValidate /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+s400336407.920519
+e400336410.795238
+r1
+xValidate
+x/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)
+oExecutable=/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowser
+ocodesign_wrapper-4.1: using Apple CA for profile evaluation
+o/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app: valid on disk
+o/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app: satisfies its Designated Requirement
+otest-requirement: code failed to satisfy specified code requirement(s)
+ocodesign_wrapper-4.1: failed to execute codesign(1)
+o - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Validate build/Release-iphoneos/GuildBrowser.appc6bfeb17a6dcb741^ed9bcb1aa6dcb741^-922"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)Executable=/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/GuildBrowsercodesign_wrapper-4.1: using Apple CA for profile evaluation/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app: valid on disk/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app: satisfies its Designated Requirementtest-requirement: code failed to satisfy specified code requirement(s)codesign_wrapper-4.1: failed to execute codesign(1) - (null2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57400336410#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--2@175" Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)165"Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate.400336410#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app/0000000000000000^699"Validate build/Release-iphoneos/GuildBrowser.app    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/apple/Desktop/GuildBrowser/build/Release-iphoneos/GuildBrowser.app36"662712BA-6371-4544-8C56-95060DD8966E-
+

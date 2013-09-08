@@ -7,20 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185D949B17DCBCC0008799E8 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D948917DCBCC0008799E8 /* AFHTTPClient.m */; };
+		185D949C17DCBCC0008799E8 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D948B17DCBCC0008799E8 /* AFHTTPRequestOperation.m */; };
+		185D949D17DCBCC0008799E8 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D948D17DCBCC0008799E8 /* AFImageRequestOperation.m */; };
+		185D949E17DCBCC0008799E8 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D948F17DCBCC0008799E8 /* AFJSONRequestOperation.m */; };
+		185D949F17DCBCC0008799E8 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D949117DCBCC0008799E8 /* AFNetworkActivityIndicatorManager.m */; };
+		185D94A017DCBCC0008799E8 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D949417DCBCC0008799E8 /* AFPropertyListRequestOperation.m */; };
+		185D94A117DCBCC0008799E8 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D949617DCBCC0008799E8 /* AFURLConnectionOperation.m */; };
+		185D94A217DCBCC0008799E8 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D949817DCBCC0008799E8 /* AFXMLRequestOperation.m */; };
+		185D94A317DCBCC0008799E8 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D949A17DCBCC0008799E8 /* UIImageView+AFNetworking.m */; };
+		185D94A917DCBE04008799E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D94A617DCBE04008799E8 /* Default-568h@2x.png */; };
+		185D94AA17DCBE04008799E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D94A717DCBE04008799E8 /* Default.png */; };
+		185D94AB17DCBE04008799E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D94A817DCBE04008799E8 /* Default@2x.png */; };
+		185D954117DCC626008799E8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185D94F617DCC33C008799E8 /* SenTestingKit.framework */; };
+		185D954517DCC6C2008799E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185D954317DCC694008799E8 /* Security.framework */; };
+		185D954617DCC94C008799E8 /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D94F417DCC309008799E8 /* WowUtilsTests.m */; };
+		185D954817DCCA05008799E8 /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FF17DCB13100C3664F /* WoWUtils.m */; };
 		18B8342317DCA33500C3664F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8342217DCA33500C3664F /* UIKit.framework */; };
 		18B8342517DCA33500C3664F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8342417DCA33500C3664F /* Foundation.framework */; };
 		18B8342717DCA33500C3664F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8342617DCA33500C3664F /* CoreGraphics.framework */; };
 		18B8342D17DCA33500C3664F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18B8342B17DCA33500C3664F /* InfoPlist.strings */; };
 		18B8342F17DCA33500C3664F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8342E17DCA33500C3664F /* main.m */; };
 		18B8343317DCA33500C3664F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8343217DCA33500C3664F /* AppDelegate.m */; };
-		18B8343517DCA33500C3664F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8343417DCA33500C3664F /* Default.png */; };
-		18B8343717DCA33500C3664F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8343617DCA33500C3664F /* Default@2x.png */; };
-		18B8343917DCA33500C3664F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8343817DCA33500C3664F /* Default-568h@2x.png */; };
 		18B8343C17DCA33500C3664F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B8343A17DCA33500C3664F /* MainStoryboard.storyboard */; };
-		18B8343F17DCA33500C3664F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8343E17DCA33500C3664F /* ViewController.m */; };
+		18B834A517DCADD300C3664F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8342217DCA33500C3664F /* UIKit.framework */; };
+		18B834A617DCADD300C3664F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8342417DCA33500C3664F /* Foundation.framework */; };
+		18B834AC17DCADD300C3664F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18B834AA17DCADD300C3664F /* InfoPlist.strings */; };
+		18B834D017DCB11F00C3664F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834BC17DCB11F00C3664F /* bg.png */; };
+		18B834D117DCB11F00C3664F /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834BD17DCB11F00C3664F /* bg@2x.png */; };
+		18B834D217DCB11F00C3664F /* button_back_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834BE17DCB11F00C3664F /* button_back_sel.png */; };
+		18B834D317DCB11F00C3664F /* button_back_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834BF17DCB11F00C3664F /* button_back_sel@2x.png */; };
+		18B834D417DCB11F00C3664F /* button_back_uns.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C017DCB11F00C3664F /* button_back_uns.png */; };
+		18B834D517DCB11F00C3664F /* button_back_uns@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C117DCB11F00C3664F /* button_back_uns@2x.png */; };
+		18B834D617DCB11F00C3664F /* detailscreen_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C217DCB11F00C3664F /* detailscreen_frame.png */; };
+		18B834D717DCB11F00C3664F /* detailscreen_frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C317DCB11F00C3664F /* detailscreen_frame@2x.png */; };
+		18B834D817DCB11F00C3664F /* divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C417DCB11F00C3664F /* divider.png */; };
+		18B834D917DCB11F00C3664F /* divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C517DCB11F00C3664F /* divider@2x.png */; };
+		18B834DA17DCB11F00C3664F /* mockup1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C617DCB11F00C3664F /* mockup1.jpg */; };
+		18B834DB17DCB11F00C3664F /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C717DCB11F00C3664F /* Notes.txt */; };
+		18B834DC17DCB11F00C3664F /* profile_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C817DCB11F00C3664F /* profile_bg.png */; };
+		18B834DD17DCB11F00C3664F /* profile_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834C917DCB11F00C3664F /* profile_bg@2x.png */; };
+		18B834DE17DCB11F00C3664F /* profile_imageframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834CA17DCB11F00C3664F /* profile_imageframe.png */; };
+		18B834DF17DCB11F00C3664F /* profile_imageframe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834CB17DCB11F00C3664F /* profile_imageframe@2x.png */; };
+		18B834E017DCB11F00C3664F /* profile_shield.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834CC17DCB11F00C3664F /* profile_shield.png */; };
+		18B834E117DCB11F00C3664F /* profile_shield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834CD17DCB11F00C3664F /* profile_shield@2x.png */; };
+		18B834E217DCB11F00C3664F /* toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834CE17DCB11F00C3664F /* toolbar.png */; };
+		18B834E317DCB11F00C3664F /* toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B834CF17DCB11F00C3664F /* toolbar@2x.png */; };
+		18B8350017DCB13100C3664F /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834E517DCB13100C3664F /* Character.m */; };
+		18B8350117DCB13100C3664F /* CharacterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834E717DCB13100C3664F /* CharacterCell.m */; };
+		18B8350217DCB13100C3664F /* CharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834E917DCB13100C3664F /* CharacterDetailViewController.m */; };
+		18B8350317DCB13100C3664F /* CharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834EB17DCB13100C3664F /* CharacterViewController.m */; };
+		18B8350617DCB13100C3664F /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834F217DCB13100C3664F /* Guild.m */; };
+		18B8350717DCB13100C3664F /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834F417DCB13100C3664F /* HeaderView.m */; };
+		18B8350817DCB13100C3664F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834F617DCB13100C3664F /* Item.m */; };
+		18B8350917DCB13100C3664F /* SetttingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834F817DCB13100C3664F /* SetttingsViewController.m */; };
+		18B8350A17DCB13100C3664F /* wow data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B834F917DCB13100C3664F /* wow data.txt */; };
+		18B8350B17DCB13100C3664F /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FB17DCB13100C3664F /* WoWApiClient.m */; };
+		18B8350C17DCB13100C3664F /* WowItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FD17DCB13100C3664F /* WowItemView.m */; };
+		18B8350D17DCB13100C3664F /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FF17DCB13100C3664F /* WoWUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		185D948817DCBCC0008799E8 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		185D948917DCBCC0008799E8 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		185D948A17DCBCC0008799E8 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		185D948B17DCBCC0008799E8 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		185D948C17DCBCC0008799E8 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		185D948D17DCBCC0008799E8 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		185D948E17DCBCC0008799E8 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		185D948F17DCBCC0008799E8 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		185D949017DCBCC0008799E8 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		185D949117DCBCC0008799E8 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		185D949217DCBCC0008799E8 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		185D949317DCBCC0008799E8 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		185D949417DCBCC0008799E8 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		185D949517DCBCC0008799E8 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		185D949617DCBCC0008799E8 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		185D949717DCBCC0008799E8 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		185D949817DCBCC0008799E8 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		185D949917DCBCC0008799E8 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		185D949A17DCBCC0008799E8 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		185D94A617DCBE04008799E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "GuildBrowser/Default-568h@2x.png"; sourceTree = "<group>"; };
+		185D94A717DCBE04008799E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = GuildBrowser/Default.png; sourceTree = "<group>"; };
+		185D94A817DCBE04008799E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "GuildBrowser/Default@2x.png"; sourceTree = "<group>"; };
+		185D94F317DCC309008799E8 /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WowUtilsTests.h; path = GuildBrowserLogicTests/WowUtilsTests.h; sourceTree = SOURCE_ROOT; };
+		185D94F417DCC309008799E8 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WowUtilsTests.m; path = GuildBrowserLogicTests/WowUtilsTests.m; sourceTree = SOURCE_ROOT; };
+		185D94F617DCC33C008799E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		185D954317DCC694008799E8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		18B8341F17DCA33500C3664F /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B8342217DCA33500C3664F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18B8342417DCA33500C3664F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,12 +104,54 @@
 		18B8343017DCA33500C3664F /* GuildBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuildBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		18B8343117DCA33500C3664F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B8343217DCA33500C3664F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18B8343417DCA33500C3664F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		18B8343617DCA33500C3664F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		18B8343817DCA33500C3664F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		18B8343B17DCA33500C3664F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		18B8343D17DCA33500C3664F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18B8343E17DCA33500C3664F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18B834A217DCADD300C3664F /* GuildBrowserLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B834A917DCADD300C3664F /* GuildBrowserLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuildBrowserLogicTests-Info.plist"; sourceTree = "<group>"; };
+		18B834AB17DCADD300C3664F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18B834B017DCADD300C3664F /* GuildBrowserLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuildBrowserLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		18B834BC17DCB11F00C3664F /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		18B834BD17DCB11F00C3664F /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		18B834BE17DCB11F00C3664F /* button_back_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back_sel.png; sourceTree = "<group>"; };
+		18B834BF17DCB11F00C3664F /* button_back_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back_sel@2x.png"; sourceTree = "<group>"; };
+		18B834C017DCB11F00C3664F /* button_back_uns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back_uns.png; sourceTree = "<group>"; };
+		18B834C117DCB11F00C3664F /* button_back_uns@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_back_uns@2x.png"; sourceTree = "<group>"; };
+		18B834C217DCB11F00C3664F /* detailscreen_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailscreen_frame.png; sourceTree = "<group>"; };
+		18B834C317DCB11F00C3664F /* detailscreen_frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detailscreen_frame@2x.png"; sourceTree = "<group>"; };
+		18B834C417DCB11F00C3664F /* divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divider.png; sourceTree = "<group>"; };
+		18B834C517DCB11F00C3664F /* divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "divider@2x.png"; sourceTree = "<group>"; };
+		18B834C617DCB11F00C3664F /* mockup1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mockup1.jpg; sourceTree = "<group>"; };
+		18B834C717DCB11F00C3664F /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
+		18B834C817DCB11F00C3664F /* profile_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg.png; sourceTree = "<group>"; };
+		18B834C917DCB11F00C3664F /* profile_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_bg@2x.png"; sourceTree = "<group>"; };
+		18B834CA17DCB11F00C3664F /* profile_imageframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_imageframe.png; sourceTree = "<group>"; };
+		18B834CB17DCB11F00C3664F /* profile_imageframe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_imageframe@2x.png"; sourceTree = "<group>"; };
+		18B834CC17DCB11F00C3664F /* profile_shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_shield.png; sourceTree = "<group>"; };
+		18B834CD17DCB11F00C3664F /* profile_shield@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_shield@2x.png"; sourceTree = "<group>"; };
+		18B834CE17DCB11F00C3664F /* toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar.png; sourceTree = "<group>"; };
+		18B834CF17DCB11F00C3664F /* toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar@2x.png"; sourceTree = "<group>"; };
+		18B834E417DCB13100C3664F /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		18B834E517DCB13100C3664F /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		18B834E617DCB13100C3664F /* CharacterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterCell.h; sourceTree = "<group>"; };
+		18B834E717DCB13100C3664F /* CharacterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterCell.m; sourceTree = "<group>"; };
+		18B834E817DCB13100C3664F /* CharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetailViewController.h; sourceTree = "<group>"; };
+		18B834E917DCB13100C3664F /* CharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetailViewController.m; sourceTree = "<group>"; };
+		18B834EA17DCB13100C3664F /* CharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterViewController.h; sourceTree = "<group>"; };
+		18B834EB17DCB13100C3664F /* CharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterViewController.m; sourceTree = "<group>"; };
+		18B834F117DCB13100C3664F /* Guild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guild.h; sourceTree = "<group>"; };
+		18B834F217DCB13100C3664F /* Guild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guild.m; sourceTree = "<group>"; };
+		18B834F317DCB13100C3664F /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		18B834F417DCB13100C3664F /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		18B834F517DCB13100C3664F /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		18B834F617DCB13100C3664F /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		18B834F717DCB13100C3664F /* SetttingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetttingsViewController.h; sourceTree = "<group>"; };
+		18B834F817DCB13100C3664F /* SetttingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetttingsViewController.m; sourceTree = "<group>"; };
+		18B834F917DCB13100C3664F /* wow data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "wow data.txt"; sourceTree = "<group>"; };
+		18B834FA17DCB13100C3664F /* WoWApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoWApiClient.h; sourceTree = "<group>"; };
+		18B834FB17DCB13100C3664F /* WoWApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoWApiClient.m; sourceTree = "<group>"; };
+		18B834FC17DCB13100C3664F /* WowItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowItemView.h; sourceTree = "<group>"; };
+		18B834FD17DCB13100C3664F /* WowItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowItemView.m; sourceTree = "<group>"; };
+		18B834FE17DCB13100C3664F /* WoWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoWUtils.h; sourceTree = "<group>"; };
+		18B834FF17DCB13100C3664F /* WoWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoWUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,19 +159,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185D954517DCC6C2008799E8 /* Security.framework in Frameworks */,
 				18B8342317DCA33500C3664F /* UIKit.framework in Frameworks */,
 				18B8342517DCA33500C3664F /* Foundation.framework in Frameworks */,
 				18B8342717DCA33500C3664F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18B8349E17DCADD300C3664F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B834A517DCADD300C3664F /* UIKit.framework in Frameworks */,
+				18B834A617DCADD300C3664F /* Foundation.framework in Frameworks */,
+				185D954117DCC626008799E8 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		185D948717DCBCC0008799E8 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				185D948817DCBCC0008799E8 /* AFHTTPClient.h */,
+				185D948917DCBCC0008799E8 /* AFHTTPClient.m */,
+				185D948A17DCBCC0008799E8 /* AFHTTPRequestOperation.h */,
+				185D948B17DCBCC0008799E8 /* AFHTTPRequestOperation.m */,
+				185D948C17DCBCC0008799E8 /* AFImageRequestOperation.h */,
+				185D948D17DCBCC0008799E8 /* AFImageRequestOperation.m */,
+				185D948E17DCBCC0008799E8 /* AFJSONRequestOperation.h */,
+				185D948F17DCBCC0008799E8 /* AFJSONRequestOperation.m */,
+				185D949017DCBCC0008799E8 /* AFNetworkActivityIndicatorManager.h */,
+				185D949117DCBCC0008799E8 /* AFNetworkActivityIndicatorManager.m */,
+				185D949217DCBCC0008799E8 /* AFNetworking.h */,
+				185D949317DCBCC0008799E8 /* AFPropertyListRequestOperation.h */,
+				185D949417DCBCC0008799E8 /* AFPropertyListRequestOperation.m */,
+				185D949517DCBCC0008799E8 /* AFURLConnectionOperation.h */,
+				185D949617DCBCC0008799E8 /* AFURLConnectionOperation.m */,
+				185D949717DCBCC0008799E8 /* AFXMLRequestOperation.h */,
+				185D949817DCBCC0008799E8 /* AFXMLRequestOperation.m */,
+				185D949917DCBCC0008799E8 /* UIImageView+AFNetworking.h */,
+				185D949A17DCBCC0008799E8 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		18B8341617DCA33500C3664F = {
 			isa = PBXGroup;
 			children = (
+				185D94A617DCBE04008799E8 /* Default-568h@2x.png */,
+				185D94A717DCBE04008799E8 /* Default.png */,
+				185D94A817DCBE04008799E8 /* Default@2x.png */,
+				185D948717DCBCC0008799E8 /* AFNetworking */,
+				18B834BA17DCB11F00C3664F /* images */,
 				18B8342817DCA33500C3664F /* GuildBrowser */,
+				18B834A717DCADD300C3664F /* GuildBrowserLogicTests */,
 				18B8342117DCA33500C3664F /* Frameworks */,
 				18B8342017DCA33500C3664F /* Products */,
 			);
@@ -66,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				18B8341F17DCA33500C3664F /* GuildBrowser.app */,
+				18B834A217DCADD300C3664F /* GuildBrowserLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +232,8 @@
 		18B8342117DCA33500C3664F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				185D954317DCC694008799E8 /* Security.framework */,
+				185D94F617DCC33C008799E8 /* SenTestingKit.framework */,
 				18B8342217DCA33500C3664F /* UIKit.framework */,
 				18B8342417DCA33500C3664F /* Foundation.framework */,
 				18B8342617DCA33500C3664F /* CoreGraphics.framework */,
@@ -84,10 +245,31 @@
 			isa = PBXGroup;
 			children = (
 				18B8343117DCA33500C3664F /* AppDelegate.h */,
+				18B834E417DCB13100C3664F /* Character.h */,
+				18B834E517DCB13100C3664F /* Character.m */,
+				18B834E617DCB13100C3664F /* CharacterCell.h */,
+				18B834E717DCB13100C3664F /* CharacterCell.m */,
+				18B834E817DCB13100C3664F /* CharacterDetailViewController.h */,
+				18B834E917DCB13100C3664F /* CharacterDetailViewController.m */,
+				18B834EA17DCB13100C3664F /* CharacterViewController.h */,
+				18B834EB17DCB13100C3664F /* CharacterViewController.m */,
+				18B834F117DCB13100C3664F /* Guild.h */,
+				18B834F217DCB13100C3664F /* Guild.m */,
+				18B834F317DCB13100C3664F /* HeaderView.h */,
+				18B834F417DCB13100C3664F /* HeaderView.m */,
+				18B834F517DCB13100C3664F /* Item.h */,
+				18B834F617DCB13100C3664F /* Item.m */,
+				18B834F717DCB13100C3664F /* SetttingsViewController.h */,
+				18B834F817DCB13100C3664F /* SetttingsViewController.m */,
+				18B834F917DCB13100C3664F /* wow data.txt */,
+				18B834FA17DCB13100C3664F /* WoWApiClient.h */,
+				18B834FB17DCB13100C3664F /* WoWApiClient.m */,
+				18B834FC17DCB13100C3664F /* WowItemView.h */,
+				18B834FD17DCB13100C3664F /* WowItemView.m */,
+				18B834FE17DCB13100C3664F /* WoWUtils.h */,
+				18B834FF17DCB13100C3664F /* WoWUtils.m */,
 				18B8343217DCA33500C3664F /* AppDelegate.m */,
 				18B8343A17DCA33500C3664F /* MainStoryboard.storyboard */,
-				18B8343D17DCA33500C3664F /* ViewController.h */,
-				18B8343E17DCA33500C3664F /* ViewController.m */,
 				18B8342917DCA33500C3664F /* Supporting Files */,
 			);
 			path = GuildBrowser;
@@ -100,11 +282,63 @@
 				18B8342B17DCA33500C3664F /* InfoPlist.strings */,
 				18B8342E17DCA33500C3664F /* main.m */,
 				18B8343017DCA33500C3664F /* GuildBrowser-Prefix.pch */,
-				18B8343417DCA33500C3664F /* Default.png */,
-				18B8343617DCA33500C3664F /* Default@2x.png */,
-				18B8343817DCA33500C3664F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B834A717DCADD300C3664F /* GuildBrowserLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				185D94F317DCC309008799E8 /* WowUtilsTests.h */,
+				185D94F417DCC309008799E8 /* WowUtilsTests.m */,
+				18B834A817DCADD300C3664F /* Supporting Files */,
+			);
+			path = GuildBrowserLogicTests;
+			sourceTree = "<group>";
+		};
+		18B834A817DCADD300C3664F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B834A917DCADD300C3664F /* GuildBrowserLogicTests-Info.plist */,
+				18B834AA17DCADD300C3664F /* InfoPlist.strings */,
+				18B834B017DCADD300C3664F /* GuildBrowserLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B834BA17DCB11F00C3664F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18B834BB17DCB11F00C3664F /* RPGArt */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		18B834BB17DCB11F00C3664F /* RPGArt */ = {
+			isa = PBXGroup;
+			children = (
+				18B834BC17DCB11F00C3664F /* bg.png */,
+				18B834BD17DCB11F00C3664F /* bg@2x.png */,
+				18B834BE17DCB11F00C3664F /* button_back_sel.png */,
+				18B834BF17DCB11F00C3664F /* button_back_sel@2x.png */,
+				18B834C017DCB11F00C3664F /* button_back_uns.png */,
+				18B834C117DCB11F00C3664F /* button_back_uns@2x.png */,
+				18B834C217DCB11F00C3664F /* detailscreen_frame.png */,
+				18B834C317DCB11F00C3664F /* detailscreen_frame@2x.png */,
+				18B834C417DCB11F00C3664F /* divider.png */,
+				18B834C517DCB11F00C3664F /* divider@2x.png */,
+				18B834C617DCB11F00C3664F /* mockup1.jpg */,
+				18B834C717DCB11F00C3664F /* Notes.txt */,
+				18B834C817DCB11F00C3664F /* profile_bg.png */,
+				18B834C917DCB11F00C3664F /* profile_bg@2x.png */,
+				18B834CA17DCB11F00C3664F /* profile_imageframe.png */,
+				18B834CB17DCB11F00C3664F /* profile_imageframe@2x.png */,
+				18B834CC17DCB11F00C3664F /* profile_shield.png */,
+				18B834CD17DCB11F00C3664F /* profile_shield@2x.png */,
+				18B834CE17DCB11F00C3664F /* toolbar.png */,
+				18B834CF17DCB11F00C3664F /* toolbar@2x.png */,
+			);
+			path = RPGArt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +360,24 @@
 			productName = GuildBrowser;
 			productReference = 18B8341F17DCA33500C3664F /* GuildBrowser.app */;
 			productType = "com.apple.product-type.application";
+		};
+		18B834A117DCADD300C3664F /* GuildBrowserLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B834B117DCADD300C3664F /* Build configuration list for PBXNativeTarget "GuildBrowserLogicTests" */;
+			buildPhases = (
+				18B8349D17DCADD300C3664F /* Sources */,
+				18B8349E17DCADD300C3664F /* Frameworks */,
+				18B8349F17DCADD300C3664F /* Resources */,
+				18B834A017DCADD300C3664F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuildBrowserLogicTests;
+			productName = GuildBrowserLogicTests;
+			productReference = 18B834A217DCADD300C3664F /* GuildBrowserLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -149,6 +401,7 @@
 			projectRoot = "";
 			targets = (
 				18B8341E17DCA33500C3664F /* GuildBrowser */,
+				18B834A117DCADD300C3664F /* GuildBrowserLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -159,14 +412,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B8342D17DCA33500C3664F /* InfoPlist.strings in Resources */,
-				18B8343517DCA33500C3664F /* Default.png in Resources */,
-				18B8343717DCA33500C3664F /* Default@2x.png in Resources */,
-				18B8343917DCA33500C3664F /* Default-568h@2x.png in Resources */,
 				18B8343C17DCA33500C3664F /* MainStoryboard.storyboard in Resources */,
+				18B834D017DCB11F00C3664F /* bg.png in Resources */,
+				18B834D117DCB11F00C3664F /* bg@2x.png in Resources */,
+				18B834D217DCB11F00C3664F /* button_back_sel.png in Resources */,
+				18B834D317DCB11F00C3664F /* button_back_sel@2x.png in Resources */,
+				18B834D417DCB11F00C3664F /* button_back_uns.png in Resources */,
+				18B834D517DCB11F00C3664F /* button_back_uns@2x.png in Resources */,
+				18B834D617DCB11F00C3664F /* detailscreen_frame.png in Resources */,
+				18B834D717DCB11F00C3664F /* detailscreen_frame@2x.png in Resources */,
+				18B834D817DCB11F00C3664F /* divider.png in Resources */,
+				18B834D917DCB11F00C3664F /* divider@2x.png in Resources */,
+				18B834DA17DCB11F00C3664F /* mockup1.jpg in Resources */,
+				18B834DB17DCB11F00C3664F /* Notes.txt in Resources */,
+				18B834DC17DCB11F00C3664F /* profile_bg.png in Resources */,
+				18B834DD17DCB11F00C3664F /* profile_bg@2x.png in Resources */,
+				18B834DE17DCB11F00C3664F /* profile_imageframe.png in Resources */,
+				18B834DF17DCB11F00C3664F /* profile_imageframe@2x.png in Resources */,
+				18B834E017DCB11F00C3664F /* profile_shield.png in Resources */,
+				18B834E117DCB11F00C3664F /* profile_shield@2x.png in Resources */,
+				18B834E217DCB11F00C3664F /* toolbar.png in Resources */,
+				18B834E317DCB11F00C3664F /* toolbar@2x.png in Resources */,
+				18B8350A17DCB13100C3664F /* wow data.txt in Resources */,
+				185D94A917DCBE04008799E8 /* Default-568h@2x.png in Resources */,
+				185D94AA17DCBE04008799E8 /* Default.png in Resources */,
+				185D94AB17DCBE04008799E8 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B8349F17DCADD300C3664F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B834AC17DCADD300C3664F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B834A017DCADD300C3664F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18B8341B17DCA33500C3664F /* Sources */ = {
@@ -175,7 +473,35 @@
 			files = (
 				18B8342F17DCA33500C3664F /* main.m in Sources */,
 				18B8343317DCA33500C3664F /* AppDelegate.m in Sources */,
-				18B8343F17DCA33500C3664F /* ViewController.m in Sources */,
+				18B8350017DCB13100C3664F /* Character.m in Sources */,
+				18B8350117DCB13100C3664F /* CharacterCell.m in Sources */,
+				18B8350217DCB13100C3664F /* CharacterDetailViewController.m in Sources */,
+				18B8350317DCB13100C3664F /* CharacterViewController.m in Sources */,
+				18B8350617DCB13100C3664F /* Guild.m in Sources */,
+				18B8350717DCB13100C3664F /* HeaderView.m in Sources */,
+				18B8350817DCB13100C3664F /* Item.m in Sources */,
+				18B8350917DCB13100C3664F /* SetttingsViewController.m in Sources */,
+				18B8350B17DCB13100C3664F /* WoWApiClient.m in Sources */,
+				18B8350C17DCB13100C3664F /* WowItemView.m in Sources */,
+				18B8350D17DCB13100C3664F /* WoWUtils.m in Sources */,
+				185D949B17DCBCC0008799E8 /* AFHTTPClient.m in Sources */,
+				185D949C17DCBCC0008799E8 /* AFHTTPRequestOperation.m in Sources */,
+				185D949D17DCBCC0008799E8 /* AFImageRequestOperation.m in Sources */,
+				185D949E17DCBCC0008799E8 /* AFJSONRequestOperation.m in Sources */,
+				185D949F17DCBCC0008799E8 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				185D94A017DCBCC0008799E8 /* AFPropertyListRequestOperation.m in Sources */,
+				185D94A117DCBCC0008799E8 /* AFURLConnectionOperation.m in Sources */,
+				185D94A217DCBCC0008799E8 /* AFXMLRequestOperation.m in Sources */,
+				185D94A317DCBCC0008799E8 /* UIImageView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B8349D17DCADD300C3664F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185D954617DCC94C008799E8 /* WowUtilsTests.m in Sources */,
+				185D954817DCCA05008799E8 /* WoWUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +522,14 @@
 				18B8343B17DCA33500C3664F /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		18B834AA17DCADD300C3664F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B834AB17DCADD300C3664F /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,10 +594,17 @@
 		18B8344317DCA33500C3664F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -271,11 +612,48 @@
 		18B8344417DCA33500C3664F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18B834B217DCADD300C3664F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		18B834B317DCADD300C3664F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -298,6 +676,16 @@
 				18B8344417DCA33500C3664F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B834B117DCADD300C3664F /* Build configuration list for PBXNativeTarget "GuildBrowserLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B834B217DCADD300C3664F /* Debug */,
+				18B834B317DCADD300C3664F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

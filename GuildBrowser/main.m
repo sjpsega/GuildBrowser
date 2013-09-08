@@ -2,8 +2,8 @@
 //  main.m
 //  GuildBrowser
 //
-//  Created by sjpsega on 13-9-8.
-//  Copyright (c) 2013年 sjp. All rights reserved.
+//  Created by Charlie Fulton on 8/25/12.
+//  Copyright (c) 2012 Charlie Fulton. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
