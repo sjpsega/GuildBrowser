@@ -23,6 +23,12 @@
 		185D954517DCC6C2008799E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185D954317DCC694008799E8 /* Security.framework */; };
 		185D954617DCC94C008799E8 /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D94F417DCC309008799E8 /* WowUtilsTests.m */; };
 		185D954817DCCA05008799E8 /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FF17DCB13100C3664F /* WoWUtils.m */; };
+		185D954C17DCD7E6008799E8 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 185D954A17DCD7E6008799E8 /* character.json */; };
+		185D954D17DCD7E6008799E8 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 185D954B17DCD7E6008799E8 /* guild.json */; };
+		185D955017DCD846008799E8 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D954F17DCD846008799E8 /* CharacterTests.m */; };
+		185D955117DCD905008799E8 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834F217DCB13100C3664F /* Guild.m */; };
+		185D955217DCD94F008799E8 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834F617DCB13100C3664F /* Item.m */; };
+		185D955317DCD963008799E8 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834E517DCB13100C3664F /* Character.m */; };
 		18B8342317DCA33500C3664F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8342217DCA33500C3664F /* UIKit.framework */; };
 		18B8342517DCA33500C3664F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8342417DCA33500C3664F /* Foundation.framework */; };
 		18B8342717DCA33500C3664F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B8342617DCA33500C3664F /* CoreGraphics.framework */; };
@@ -94,6 +100,10 @@
 		185D94F417DCC309008799E8 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WowUtilsTests.m; path = GuildBrowserLogicTests/WowUtilsTests.m; sourceTree = SOURCE_ROOT; };
 		185D94F617DCC33C008799E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		185D954317DCC694008799E8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		185D954A17DCD7E6008799E8 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
+		185D954B17DCD7E6008799E8 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
+		185D954E17DCD846008799E8 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterTests.h; path = GuildBrowserLogicTests/CharacterTests.h; sourceTree = SOURCE_ROOT; };
+		185D954F17DCD846008799E8 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharacterTests.m; path = GuildBrowserLogicTests/CharacterTests.m; sourceTree = SOURCE_ROOT; };
 		18B8341F17DCA33500C3664F /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B8342217DCA33500C3664F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18B8342417DCA33500C3664F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -205,9 +215,19 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		185D954917DCD7E5008799E8 /* testdata */ = {
+			isa = PBXGroup;
+			children = (
+				185D954A17DCD7E6008799E8 /* character.json */,
+				185D954B17DCD7E6008799E8 /* guild.json */,
+			);
+			path = testdata;
+			sourceTree = "<group>";
+		};
 		18B8341617DCA33500C3664F = {
 			isa = PBXGroup;
 			children = (
+				185D954917DCD7E5008799E8 /* testdata */,
 				185D94A617DCBE04008799E8 /* Default-568h@2x.png */,
 				185D94A717DCBE04008799E8 /* Default.png */,
 				185D94A817DCBE04008799E8 /* Default@2x.png */,
@@ -289,6 +309,8 @@
 		18B834A717DCADD300C3664F /* GuildBrowserLogicTests */ = {
 			isa = PBXGroup;
 			children = (
+				185D954E17DCD846008799E8 /* CharacterTests.h */,
+				185D954F17DCD846008799E8 /* CharacterTests.m */,
 				185D94F317DCC309008799E8 /* WowUtilsTests.h */,
 				185D94F417DCC309008799E8 /* WowUtilsTests.m */,
 				18B834A817DCADD300C3664F /* Supporting Files */,
@@ -445,6 +467,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B834AC17DCADD300C3664F /* InfoPlist.strings in Resources */,
+				185D954C17DCD7E6008799E8 /* character.json in Resources */,
+				185D954D17DCD7E6008799E8 /* guild.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +526,10 @@
 			files = (
 				185D954617DCC94C008799E8 /* WowUtilsTests.m in Sources */,
 				185D954817DCCA05008799E8 /* WoWUtils.m in Sources */,
+				185D955217DCD94F008799E8 /* Item.m in Sources */,
+				185D955317DCD963008799E8 /* Character.m in Sources */,
+				185D955117DCD905008799E8 /* Guild.m in Sources */,
+				185D955017DCD846008799E8 /* CharacterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +591,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = NO;
 			};
 			name = Debug;
 		};
@@ -587,6 +616,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -638,6 +668,7 @@
 				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -653,6 +684,7 @@
 				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
