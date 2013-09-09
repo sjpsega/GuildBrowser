@@ -1,0 +1,450 @@
+TGuildBrowserLogicTests
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/Info.plist GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist
+cProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch.pth GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WowUtilsTests.o /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/WowUtilsTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WoWUtils.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/WoWUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Item.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/Item.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Character.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/Character.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Guild.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/Guild.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/CharacterTests.o /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/CharacterTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests normal armv7
+cGenerateDSYMFile /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest.dSYM /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests
+cCpResource testdata/character.json build/Debug-iphoneos/GuildBrowserLogicTests.octest/character.json
+cCopyStringsFile /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/en.lproj/InfoPlist.strings GuildBrowserLogicTests/en.lproj/InfoPlist.strings
+cCpResource testdata/guild.json build/Debug-iphoneos/GuildBrowserLogicTests.octest/guild.json
+cPhaseScriptExecution "Run Script" /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Script-18B834A017DCADD300C3664F.sh
+cTouch /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest
+
+N/Applications/Xcode.app/Contents/Developer/Library/Frameworks/SenTestingKit.framework/SenTestingKit
+c0000000051380AC600000000000310B0
+t1362627270
+s200880
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000051BC4FA50000000000000132
+t1371295653
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/NSException_SenTestFailure.h
+c0000000051380AC60000000000000E25
+t1362627270
+s3621
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenInterfaceTestCase.h
+c0000000051380AC60000000000000701
+t1362627270
+s1793
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTest.h
+c0000000051380AC6000000000000084C
+t1362627270
+s2124
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase.h
+c0000000051380AC600000000000019FB
+t1362627270
+s6651
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCaseRun.h
+c0000000051380AC60000000000000875
+t1362627270
+s2165
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase_Macros.h
+c0000000051380AC60000000000007F41
+t1362627270
+s32577
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDefines.h
+c0000000051380AC60000000000000947
+t1362627270
+s2375
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDistributedNotifier.h
+c0000000051380AC60000000000000800
+t1362627270
+s2048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestLog.h
+c0000000051380AC6000000000000079D
+t1362627270
+s1949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestObserver.h
+c0000000051380AC60000000000000A6C
+t1362627270
+s2668
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestProbe.h
+c0000000051380AC60000000000000AD1
+t1362627270
+s2769
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestRun.h
+c0000000051380AC60000000000000A79
+t1362627270
+s2681
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestSuite.h
+c0000000051380AC60000000000000CCF
+t1362627270
+s3279
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestSuiteRun.h
+c0000000051380AC600000000000007E1
+t1362627270
+s2017
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
+c0000000051380AC600000000000008A5
+t1362627270
+s2213
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingUtilities.h
+c0000000051380AC60000000000000C37
+t1362627270
+s3127
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051380AC9000000000062AD10
+t1362627273
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000051380AC800000000000015F7
+t1362627272
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000051380AC90000000000000E8D
+t1362627273
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051380ACC00000000011BCDF0
+t1362627276
+s18599408
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Character.h
+c000000005047CA800000000000000779
+t1346882176
+s1913
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Character.m
+c000000005047CA800000000000001223
+t1346882176
+s4643
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Guild.h
+c000000005047CA8000000000000001E7
+t1346882176
+s487
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Guild.m
+c000000005047CA800000000000000938
+t1346882176
+s2360
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Item.h
+c000000005047CA80000000000000030A
+t1346882176
+s778
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/Item.m
+c000000005047CA80000000000000046C
+t1346882176
+s1132
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/WoWUtils.h
+c000000005047CA8000000000000009BA
+t1346882176
+s2490
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowser/WoWUtils.m
+c00000000522C7ADD0000000000001380
+t1378646749
+s4992
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/CharacterTests.h
+c00000000522CA0C500000000000000DD
+t1378656453
+s221
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/CharacterTests.m
+c00000000522CA6040000000000001180
+t1378657796
+s4480
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch
+c00000000522C765300000000000000D5
+t1378645587
+s213
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/WowUtilsTests.h
+c00000000522C8B8800000000000000DB
+t1378651016
+s219
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/WowUtilsTests.m
+c00000000522DE8FF00000000000004B9
+t1378740479
+s1209
+
+N/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/en.lproj/InfoPlist.strings
+c00000000522C7653000000000000002D
+t1378645587
+s45
+
+N/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest.dSYM
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/Info.plist
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/character.json
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/guild.json
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Character.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/CharacterTests.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Guild.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/GuildBrowserLogicTests.LinkFileList
+c00000000522DEB24000000000000032F
+t1378741028
+s815
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Item.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WoWUtils.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WowUtilsTests.o
+t2
+s0
+
+N/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Script-18B834A017DCADD300C3664F.sh
+c00000000522DEB240000000000000062
+t1378741028
+s98
+
+N/Users/apple/Desktop/GuildBrowser/testdata/character.json
+c0000000050473C7C00000000000019EC
+t1346845820
+s6636
+
+N/Users/apple/Desktop/GuildBrowser/testdata/guild.json
+c00000000503AEFC30000000000002361
+t1346039747
+s9057
+
+N/var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch.pth
+t2
+s0
+
+NGuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist
+c00000000522C765300000000000002AF
+t1378645587
+s687
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb54f4fa422deb741^1c4259a422deb741^---0#1#0#--18"Check dependencies36"C0AC1E42-62A9-4527-9EFE-1F2F14B9E23D-
+
+CCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Character.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/Character.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400433828.665688
+e400433828.762988
+r1
+xCompileC
+xbuild/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Character.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/Character.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/Character.mcaa4aaa422deb741^db52c3a422deb741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/Character.m0000000000000000^3864"CompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Character.o GuildBrowser/Character.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Character.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Character.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/Character.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Character.o36"2B6A5516-748D-48BF-8E45-8D38D2FF0FBB-
+
+CCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/CharacterTests.o /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/CharacterTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400433828.711668
+e400433828.889789
+r1
+xCompileC
+xbuild/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/CharacterTests.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/CharacterTests.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/CharacterTests.med66b6a422deb741^b8cae3a422deb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/CharacterTests.m0000000000000000^3914"CompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/CharacterTests.o GuildBrowserLogicTests/CharacterTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/CharacterTests.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/CharacterTests.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/CharacterTests.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/CharacterTests.o36"69193F0E-BAED-43C3-A7A1-6F4A45655FB1-
+
+CCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Guild.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/Guild.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400433828.710222
+e400433828.765333
+r1
+xCompileC
+xbuild/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Guild.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/Guild.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/Guild.m0f5fb6a422deb741^c0ebc3a422deb741^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/Guild.m0000000000000000^3840"CompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Guild.o GuildBrowser/Guild.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Guild.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Guild.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/Guild.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Guild.o36"F5FEF9A2-7778-4D22-B4C0-331EEC42EF4E-
+
+CCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Item.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/Item.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400433828.665615
+e400433828.709932
+r1
+xCompileC
+xbuild/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Item.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/Item.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/Item.md09baaa422deb741^a819b6a422deb741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/Item.m0000000000000000^3834"CompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Item.o GuildBrowser/Item.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Item.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Item.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/Item.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/Item.o36"1CD168E6-8294-41D5-A660-9B7906697A8C-
+
+CCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WoWUtils.o /Users/apple/Desktop/GuildBrowser/GuildBrowser/WoWUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400433828.665096
+e400433828.708079
+r1
+xCompileC
+xbuild/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WoWUtils.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowser/WoWUtils.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowser/WoWUtils.m8e78aaa422deb741^d559b5a422deb741^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowser/WoWUtils.m0000000000000000^3858"CompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WoWUtils.o GuildBrowser/WoWUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WoWUtils.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WoWUtils.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowser/WoWUtils.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WoWUtils.o36"4B9A79B9-EDD9-4BF3-8685-5074094085DB-
+
+CCompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WowUtilsTests.o /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/WowUtilsTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400433828.665090
+e400433828.745988
+r1
+xCompileC
+xbuild/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WowUtilsTests.o
+x/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/WowUtilsTests.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/WowUtilsTests.m4b78aaa422deb741^c007bfa422deb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/WowUtilsTests.m0000000000000000^3908"CompileC build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WowUtilsTests.o GuildBrowserLogicTests/WowUtilsTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch -MMD -MT dependencies -MF /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WowUtilsTests.d --serialize-diagnostics /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WowUtilsTests.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/WowUtilsTests.m -o /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/WowUtilsTests.o36"D94D8DA5-B521-411C-894D-BE4D913339C5-
+
+CCopyStringsFile /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/en.lproj/InfoPlist.strings GuildBrowserLogicTests/en.lproj/InfoPlist.strings
+s400433828.960200
+e400433828.963646
+r1
+xCopyStringsFile
+x/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/en.lproj/InfoPlist.strings
+xGuildBrowserLogicTests/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy GuildBrowserLogicTests/en.lproj/InfoPlist.strings5ef4f5a422deb741^b3b1f6a422deb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/en.lproj/InfoPlist.strings0000000000000000^794"CopyStringsFile build/Debug-iphoneos/GuildBrowserLogicTests.octest/en.lproj/InfoPlist.strings GuildBrowserLogicTests/en.lproj/InfoPlist.strings    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/en.lproj -- GuildBrowserLogicTests/en.lproj/InfoPlist.strings36"D7049923-52CF-4211-BA4F-F88005503D85-
+
+CCpResource testdata/character.json build/Debug-iphoneos/GuildBrowserLogicTests.octest/character.json
+s400433828.960202
+e400433828.965144
+r1
+xCpResource
+xtestdata/character.json
+xbuild/Debug-iphoneos/GuildBrowserLogicTests.octest/character.json
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphoneos/GuildBrowserLogicTests.octest/character.json1bf4f5a422deb741^5a0ef8a422deb741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/character.json000000000080d041^769"CpResource testdata/character.json build/Debug-iphoneos/GuildBrowserLogicTests.octest/character.json    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apple/Desktop/GuildBrowser/testdata/character.json /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest36"51A32A71-1EC1-4204-A734-17CBC61E6C08-
+
+CCpResource testdata/guild.json build/Debug-iphoneos/GuildBrowserLogicTests.octest/guild.json
+s400433828.960218
+e400433828.964203
+r1
+xCpResource
+xtestdata/guild.json
+xbuild/Debug-iphoneos/GuildBrowserLogicTests.octest/guild.json
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphoneos/GuildBrowserLogicTests.octest/guild.jsona5f3f5a422deb741^dcd6f6a422deb741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/guild.json000000000080d041^757"CpResource testdata/guild.json build/Debug-iphoneos/GuildBrowserLogicTests.octest/guild.json    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apple/Desktop/GuildBrowser/testdata/guild.json /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest36"A2F527AF-18DA-4B3E-AC93-26658810CCF9-
+
+CGenerateDSYMFile /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest.dSYM /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests
+s400433828.931123
+e400433828.951712
+r1
+xGenerateDSYMFile
+x/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest.dSYM
+x/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Generate /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest.dSYMc383eea422deb741^e0a2f3a422deb741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest.dSYM000000000080d041^861"GenerateDSYMFile build/Debug-iphoneos/GuildBrowserLogicTests.octest.dSYM build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests -o /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest.dSYM36"23E89778-564F-4358-960A-9024C17C171A-
+
+CLd /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests normal armv7
+s400433828.897500
+e400433828.923424
+r1
+xLd
+x/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTestsdee6e5a422deb741^1767eca422deb741^---0#0#0#--1500"Ld build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests normal armv7    cd /Users/apple/Desktop/GuildBrowser    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -filelist /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/GuildBrowserLogicTests.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework SenTestingKit -o /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/GuildBrowserLogicTests36"880184A5-1963-467A-A94E-0FF74F9C7335-
+
+CPhaseScriptExecution "Run Script" /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Script-18B834A017DCADD300C3664F.sh
+s400433828.974652
+e400433829.001081
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Script-18B834A017DCADD300C3664F.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'ba14fba422deb741^414600a522deb741^---0#0#0#--21312"PhaseScriptExecution "Run Script" build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Script-18B834A017DCADD300C3664F.sh    cd /Users/apple/Desktop/GuildBrowser    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER apple    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/apple/Desktop/GuildBrowser/build    setenv BUILD_ROOT /Users/apple/Desktop/GuildBrowser/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_CXX_LANGUAGE_STANDARD gnu++0x    setenv CLANG_CXX_LIBRARY libc++    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH GuildBrowserLogicTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH GuildBrowserLogicTests.octest/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/GuildBrowser.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME GuildBrowserLogicTests.octest.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH GuildBrowserLogicTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH GuildBrowserLogicTests.octest    setenv EXECUTABLE_NAME GuildBrowserLogicTests    setenv EXECUTABLE_PATH GuildBrowserLogicTests.octest/GuildBrowserLogicTests    setenv FILE_LIST /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH GuildBrowserLogicTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos\" \"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks\" \"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME GuildBrowserLogicTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/include\"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH GuildBrowserLogicTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH GuildBrowserLogicTests.octest/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/GuildBrowser.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER apple    setenv INSTALL_ROOT /tmp/GuildBrowser.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH GuildBrowserLogicTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal/armv7/GuildBrowserLogicTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH GuildBrowserLogicTests.octest/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Objects-normal    setenv OBJROOT /Users/apple/Desktop/GuildBrowser/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH GuildBrowserLogicTests.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/PkgInfo    setenv PKGINFO_PATH GuildBrowserLogicTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH GuildBrowserLogicTests.octest/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH GuildBrowserLogicTests.octest/PrivateHeaders    setenv PRODUCT_NAME GuildBrowserLogicTests    setenv PRODUCT_SETTINGS_PATH /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT GuildBrowser    setenv PROJECT_DERIVED_FILE_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/DerivedSources    setenv PROJECT_DIR /Users/apple/Desktop/GuildBrowser    setenv PROJECT_FILE_PATH /Users/apple/Desktop/GuildBrowser/GuildBrowser.xcodeproj    setenv PROJECT_NAME GuildBrowser    setenv PROJECT_TEMP_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build    setenv PROJECT_TEMP_ROOT /Users/apple/Desktop/GuildBrowser/build    setenv PUBLIC_HEADERS_FOLDER_PATH GuildBrowserLogicTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH GuildBrowserLogicTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk    setenv SDK_NAME iphoneos6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH GuildBrowserLogicTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH GuildBrowserLogicTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/apple/Desktop/GuildBrowser    setenv SRCROOT /Users/apple/Desktop/GuildBrowser    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/apple/Desktop/GuildBrowser/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME GuildBrowserLogicTests    setenv TARGET_BUILD_DIR /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos    setenv TARGET_NAME GuildBrowserLogicTests    setenv TARGET_TEMP_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build    setenv TEMP_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build    setenv TEMP_FILES_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build    setenv TEMP_FILE_DIR /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build    setenv TEMP_ROOT /Users/apple/Desktop/GuildBrowser/build    setenv TEST_AFTER_BUILD YES    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH GuildBrowserLogicTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER apple    setenv USER_APPS_DIR /Users/apple/Applications    setenv USER_LIBRARY_DIR /Users/apple/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH GuildBrowserLogicTests.octest/version.plist    setenv VERSION_INFO_BUILDER apple    setenv VERSION_INFO_FILE GuildBrowserLogicTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:GuildBrowserLogicTests  PROJECT:GuildBrowser-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME GuildBrowserLogicTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H127    setenv XCODE_VERSION_ACTUAL 0460    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/Script-18B834A017DCADD300C3664F.sh36"ADB1D9AA-7BBA-4958-BE76-B6A963F63D35-
+
+CProcessInfoPlistFile /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/Info.plist GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist
+s400433828.354675
+e400433828.358678
+r1
+xProcessInfoPlistFile
+x/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/Info.plist
+xGuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Process GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plistf3e85aa422deb741^0fd25ba422deb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist0000000000000000^793"ProcessInfoPlistFile build/Debug-iphoneos/GuildBrowserLogicTests.octest/Info.plist GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    builtin-infoPlistUtility GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest/Info.plist36"BB780BD5-D0B7-408C-BF97-CAE2BBEBAF66-
+
+CProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch.pth GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400433828.366978
+e400433828.657993
+r1
+xProcessPCH
+x/var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch.pth
+xGuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Precompile GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch11345ea422deb741^6171a8a422deb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch0000000000000000^3991"ProcessPCH /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch.pth GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apple/Desktop/GuildBrowser    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-generated-files.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-own-target-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-all-target-headers.hmap -iquote /Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/GuildBrowserLogicTests-project-headers.hmap -I/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources/armv7 -I/Users/apple/Desktop/GuildBrowser/build/GuildBrowser.build/Debug-iphoneos/GuildBrowserLogicTests.build/DerivedSources -F/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch.dia -c /Users/apple/Desktop/GuildBrowser/GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch -o /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s9/ksz8316j6p10jb02_sz5b9fh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GuildBrowserLogicTests-Prefix-chmmhqmmnbwahcdvltqlxuopkcvp/GuildBrowserLogicTests-Prefix.pch.d36"ABCA427B-3302-41EC-BF26-B012C2FC02A6-
+
+CTouch /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest
+s400433829.010139
+e400433829.014897
+r1
+xTouch
+x/Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octestfdbf02a522deb741^6cd003a522deb741^---0#0#0#--577"Touch build/Debug-iphoneos/GuildBrowserLogicTests.octest    cd /Users/apple/Desktop/GuildBrowser    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/apple/program/android/adt-bundle-mac-x86_64/sdk/tools"    /usr/bin/touch -c /Users/apple/Desktop/GuildBrowser/build/Debug-iphoneos/GuildBrowserLogicTests.octest36"FA72113B-15AD-4D60-B6CF-9BF0FD1BDDAE-
+

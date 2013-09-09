@@ -59,7 +59,7 @@
 // 1
 -(void)testCreateCharacterFromDetailJsonProps
 {
-    STAssertEqualObjects(_testGuy.thumbnail, @"boreantundra/171/40508075-avatar.jpg", @"thumbnail url is wrong");
+    STAssertEqualObjects(_testGuy.thumbnail, @"borean-tundra/171/40508075-avatar.jpg", @"thumbnail url is wrong");
     STAssertEqualObjects(_testGuy.name, @"Hagrel", @"name is wrong");
     STAssertEqualObjects(_testGuy.battleGroup, @"Emberstorm",
                          @"battlegroup is wrong");
@@ -88,7 +88,7 @@
     STAssertEqualObjects(_testGuy.fingerItem2.name,@"Breathstealer Band", @"name is wrong");
     STAssertEqualObjects(_testGuy.shirtItem.name,@"Black Swashbuckler's Shirt", @"name is wrong");
     STAssertEqualObjects(_testGuy.tabardItem.name,@"Tabard of the Wildhammer Clan", @"nname is wrong");
-    STAssertEqualObjects(_testGuy.headItem.name,@"Vicious Pyrium åHelm", @"neck name is wrong");
+    STAssertEqualObjects(_testGuy.headItem.name,@"Vicious Pyrium Helm", @"neck name is wrong");
     STAssertEqualObjects(_testGuy.backItem.name,@"Cloak of the Royal Protector", @"neck name is wrong");
     STAssertEqualObjects(_testGuy.legsItem.name,@"Bloodhoof Legguards", @"neck name is wrong");
     STAssertEqualObjects(_testGuy.feetItem.name,@"Treads of the Past",@"neck name is wrong");
