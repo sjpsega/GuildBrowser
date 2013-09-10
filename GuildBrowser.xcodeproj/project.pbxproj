@@ -71,6 +71,15 @@
 		18B8350B17DCB13100C3664F /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FB17DCB13100C3664F /* WoWApiClient.m */; };
 		18B8350C17DCB13100C3664F /* WowItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FD17DCB13100C3664F /* WowItemView.m */; };
 		18B8350D17DCB13100C3664F /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FF17DCB13100C3664F /* WoWUtils.m */; };
+		18EEA8C917DF748E00B9FD6B /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D948917DCBCC0008799E8 /* AFHTTPClient.m */; };
+		18EEA8CA17DF74A100B9FD6B /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D948B17DCBCC0008799E8 /* AFHTTPRequestOperation.m */; };
+		18EEA8CB17DF74AA00B9FD6B /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D948F17DCBCC0008799E8 /* AFJSONRequestOperation.m */; };
+		18EEA8CC17DF74B500B9FD6B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D949617DCBCC0008799E8 /* AFURLConnectionOperation.m */; };
+		18EEA8CD17DF74C200B9FD6B /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B834FB17DCB13100C3664F /* WoWApiClient.m */; };
+		18EEA8D017DF76BA00B9FD6B /* GuildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA8CF17DF76BA00B9FD6B /* GuildTests.m */; };
+		18EEA8D917DF7AD100B9FD6B /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EEA8D817DF7AD100B9FD6B /* libOCMock.a */; };
+		18EEA8DC17DF7BB300B9FD6B /* TestSemaphor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA8DB17DF7BB200B9FD6B /* TestSemaphor.m */; };
+		18EEA8DE17DF7D2900B9FD6B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185D954317DCC694008799E8 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +171,11 @@
 		18B834FD17DCB13100C3664F /* WowItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowItemView.m; sourceTree = "<group>"; };
 		18B834FE17DCB13100C3664F /* WoWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoWUtils.h; sourceTree = "<group>"; };
 		18B834FF17DCB13100C3664F /* WoWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoWUtils.m; sourceTree = "<group>"; };
+		18EEA8CE17DF76BA00B9FD6B /* GuildTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuildTests.h; path = GuildBrowserLogicTests/GuildTests.h; sourceTree = SOURCE_ROOT; };
+		18EEA8CF17DF76BA00B9FD6B /* GuildTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuildTests.m; path = GuildBrowserLogicTests/GuildTests.m; sourceTree = SOURCE_ROOT; };
+		18EEA8D817DF7AD100B9FD6B /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
+		18EEA8DA17DF7BB200B9FD6B /* TestSemaphor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestSemaphor.h; path = GuildBrowser/TestSemaphor.h; sourceTree = "<group>"; };
+		18EEA8DB17DF7BB200B9FD6B /* TestSemaphor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestSemaphor.m; path = GuildBrowser/TestSemaphor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +194,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EEA8DE17DF7D2900B9FD6B /* Security.framework in Frameworks */,
+				18EEA8D917DF7AD100B9FD6B /* libOCMock.a in Frameworks */,
 				18B834A517DCADD300C3664F /* UIKit.framework in Frameworks */,
 				18B834A617DCADD300C3664F /* Foundation.framework in Frameworks */,
 				185D954117DCC626008799E8 /* SenTestingKit.framework in Frameworks */,
@@ -227,6 +243,8 @@
 		18B8341617DCA33500C3664F = {
 			isa = PBXGroup;
 			children = (
+				18EEA8DD17DF7CA700B9FD6B /* TestSemaphor */,
+				18EEA8D817DF7AD100B9FD6B /* libOCMock.a */,
 				185D954917DCD7E5008799E8 /* testdata */,
 				185D94A617DCBE04008799E8 /* Default-568h@2x.png */,
 				185D94A717DCBE04008799E8 /* Default.png */,
@@ -265,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				18B8343117DCA33500C3664F /* AppDelegate.h */,
+				18B8343217DCA33500C3664F /* AppDelegate.m */,
 				18B834E417DCB13100C3664F /* Character.h */,
 				18B834E517DCB13100C3664F /* Character.m */,
 				18B834E617DCB13100C3664F /* CharacterCell.h */,
@@ -288,7 +307,6 @@
 				18B834FD17DCB13100C3664F /* WowItemView.m */,
 				18B834FE17DCB13100C3664F /* WoWUtils.h */,
 				18B834FF17DCB13100C3664F /* WoWUtils.m */,
-				18B8343217DCA33500C3664F /* AppDelegate.m */,
 				18B8343A17DCA33500C3664F /* MainStoryboard.storyboard */,
 				18B8342917DCA33500C3664F /* Supporting Files */,
 			);
@@ -311,6 +329,8 @@
 			children = (
 				185D954E17DCD846008799E8 /* CharacterTests.h */,
 				185D954F17DCD846008799E8 /* CharacterTests.m */,
+				18EEA8CE17DF76BA00B9FD6B /* GuildTests.h */,
+				18EEA8CF17DF76BA00B9FD6B /* GuildTests.m */,
 				185D94F317DCC309008799E8 /* WowUtilsTests.h */,
 				185D94F417DCC309008799E8 /* WowUtilsTests.m */,
 				18B834A817DCADD300C3664F /* Supporting Files */,
@@ -361,6 +381,15 @@
 				18B834CF17DCB11F00C3664F /* toolbar@2x.png */,
 			);
 			path = RPGArt;
+			sourceTree = "<group>";
+		};
+		18EEA8DD17DF7CA700B9FD6B /* TestSemaphor */ = {
+			isa = PBXGroup;
+			children = (
+				18EEA8DA17DF7BB200B9FD6B /* TestSemaphor.h */,
+				18EEA8DB17DF7BB200B9FD6B /* TestSemaphor.m */,
+			);
+			name = TestSemaphor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -524,12 +553,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EEA8DC17DF7BB300B9FD6B /* TestSemaphor.m in Sources */,
 				185D954617DCC94C008799E8 /* WowUtilsTests.m in Sources */,
 				185D954817DCCA05008799E8 /* WoWUtils.m in Sources */,
 				185D955217DCD94F008799E8 /* Item.m in Sources */,
 				185D955317DCD963008799E8 /* Character.m in Sources */,
 				185D955117DCD905008799E8 /* Guild.m in Sources */,
 				185D955017DCD846008799E8 /* CharacterTests.m in Sources */,
+				18EEA8C917DF748E00B9FD6B /* AFHTTPClient.m in Sources */,
+				18EEA8CA17DF74A100B9FD6B /* AFHTTPRequestOperation.m in Sources */,
+				18EEA8CB17DF74AA00B9FD6B /* AFJSONRequestOperation.m in Sources */,
+				18EEA8CC17DF74B500B9FD6B /* AFURLConnectionOperation.m in Sources */,
+				18EEA8CD17DF74C200B9FD6B /* WoWApiClient.m in Sources */,
+				18EEA8D017DF76BA00B9FD6B /* GuildTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,7 +702,20 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/OCMock/OCMock",
+					"$(SRCROOT)/OCMock",
+				);
 				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/OCMock/libOCMock.a",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = NO;
 				TEST_HOST = "";
@@ -683,7 +732,20 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/OCMock/OCMock",
+					"$(SRCROOT)/OCMock",
+				);
 				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/OCMock/libOCMock.a",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_AFTER_BUILD = NO;
 				TEST_HOST = "";
